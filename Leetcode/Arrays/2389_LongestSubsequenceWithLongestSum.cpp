@@ -13,7 +13,7 @@
 //         int temp_sum = total_sum;
 //         int count = n;
 //         int j = n - 1;
-//         while(temp_sum > queries[i] && j < n){
+//         while(temp_sum > queries[i] && j >= 0){
 //             temp_sum -= nums[j];
 //             count--;
 //             j--;
@@ -57,7 +57,7 @@
 //     sort(nums.begin() , nums.end());
 
 //     for(int i = 1 ; i < n ; i++){
-//         nums[i] += nums[i - 1];
+//         nums[i] += nums[i - 1];              //Cummulative sum of the array
 //     }
 
 //     for(int &query : queries){
