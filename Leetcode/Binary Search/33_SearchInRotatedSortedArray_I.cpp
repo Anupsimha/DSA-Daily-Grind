@@ -14,7 +14,7 @@
 // int binarySearch(vector<int>& nums , int st , int e , int target){
 //     while(st <= e){
 //         int mid = st + (e - st)/2;
-
+//
 //         if(nums[mid] == target)  return mid;
 //         else if(nums[mid] > target)  e = mid - 1;
 //         else    st = mid + 1;
@@ -24,7 +24,7 @@
 
 // int search(vector<int>& nums, int target) {
 //     int n = nums.size();
-
+//
 //     int pivot = getPivot(nums , n);
 //     int ans = -1;
 //     if(target >= nums[pivot] && target <= nums[n - 1]){
@@ -33,6 +33,6 @@
 //     else{
 //         ans = binarySearch(nums , 0 , pivot - 1 ,target);
 //     }
-
+//
 //     return ans;
 // }

@@ -31,11 +31,11 @@
 
 // int BinarySearch(vector<int>& nums , int n , int target){
 //     int l = 0 , r = n - 1;
-
+//
 //     int res = -1;
 //     while(l <= r){
 //         int mid = l + (r - l)/2;
-
+//
 //         if(nums[mid] <= target){
 //             res = mid;
 //             l = mid + 1;
@@ -44,28 +44,28 @@
 //             r = mid - 1;
 //         }
 //     }
-
+//
 //     return (res == -1) ? 0 : res + 1;
 // }
-
+//
 // vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
 //     int n = nums.size();
 //     int m = queries.size();
-
+//
 //     vector<int> ans;
-
+//
 //     sort(nums.begin() , nums.end());
-
+//
 //     for(int i = 1 ; i < n ; i++){
 //         nums[i] += nums[i - 1];              //Cummulative sum of the array
 //     }
-
+//
 //     for(int &query : queries){
 //         int count = BinarySearch(nums , n , query);
-
+//
 //         ans.push_back(count);
 //     }
-
+//
 //     return ans;
 // }
 
@@ -76,21 +76,21 @@
 // vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
 //     int n = nums.size();
 //     int m = queries.size();
-
+//
 //     vector<int> ans;
-
+//
 //     sort(nums.begin() , nums.end());
-
+//
 //     for(int i = 1 ; i < n ; i++){
 //         nums[i] += nums[i - 1];
 //     }
-
+//
 //     for(int &query : queries){
 //         int count = upper_bound(nums.begin() , nums.end() , query) - nums.begin();
-
+//
 //         ans.push_back(count);
 //     }
-
+//
 //     return ans;
 // }
 
