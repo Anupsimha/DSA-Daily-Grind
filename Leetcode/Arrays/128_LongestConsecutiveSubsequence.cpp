@@ -9,12 +9,12 @@
 //     }
 //     return false;
 // }
-
+//
 // int longestConsecutive(vector<int>& nums) {
 //     int n = nums.size();
-
+//
 //     if(n == 0)  return 0;
-
+//
 //     int longest = INT_MIN;
 //     for(int i = 0 ; i < n ; i++){
 //         int x = nums[i];
@@ -25,7 +25,7 @@
 //         }
 //         longest = max(count , longest);
 //     }
-
+//
 //     return longest;
 // }
 
@@ -35,11 +35,11 @@
 
 // int longestConsecutive(vector<int>& nums) {
 //     int n = nums.size();
-
+//
 //     if(n == 0)  return 0;
-
+//
 //     sort(nums.begin() , nums.end());
-
+//
 //     int longest = 1;
 //     int lastSmaller = INT_MIN;
 //     int count = 0;
@@ -52,10 +52,10 @@
 //             count = 1;
 //             lastSmaller = nums[i];
 //         }
-
+//
 //         longest = max(longest , count);
 //     }
-
+//
 //     return longest;
 // }
 
