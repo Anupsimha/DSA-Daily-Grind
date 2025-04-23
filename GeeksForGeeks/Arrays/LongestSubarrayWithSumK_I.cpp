@@ -14,13 +14,13 @@
 //         }
 //         int rem=sum-k;
         
-//         if(premap.find(rem)!=premap.end()){
-//             int len=i-premap[rem];
+//         if(premap.find(rem) != premap.end()){
+//             int len = i - premap[rem];
 //             mlen=max(len,mlen);
 //         }
         
 //         if(premap.find(sum)==premap.end()){
-//             premap[sum]=i;
+//             premap[sum] = i;
 //         }
 //     }
     
