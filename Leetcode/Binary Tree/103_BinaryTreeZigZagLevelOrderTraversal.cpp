@@ -10,20 +10,20 @@
 //     while(!q.empty()){
 //         int size = q.size();
 //         vector<int> sub(size);
-
+//
 //         for(int i = 0 ; i < size ; i++){
 //             TreeNode* temp = q.front();
 //             q.pop();
-            
+//            
 //             int index = ltr ? i : (size - 1 - i);
 //             sub[index] = temp->val;
-
+//
 //             if (temp->left) q.push(temp->left);
 //             if (temp->right) q.push(temp->right);
 //         }
 //         ltr = !ltr;
 //         ans.push_back(sub);
 //     }
-
+//
 //     return ans;
 // }
