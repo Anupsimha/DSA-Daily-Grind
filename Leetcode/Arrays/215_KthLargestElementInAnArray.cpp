@@ -1,3 +1,5 @@
+// Uses Quick Sort algorithm to find the kth largest element in an array
+
 // int partition_algo(vector<int> &nums , int L , int R){
 //     int P = nums[L];
 //     int i = L + 1;
@@ -27,12 +29,12 @@
 //     int pivot_idx = 0;
 //
 //     while(true){
-//         pivot_idx = partition_algo(nums , L , R);
+//         pivot_idx = partition_algo(nums , L , R);    // Gives the right position of the pivot element in the sorted array
 //
-//         if(pivot_idx == k - 1)
+//         if(pivot_idx == k - 1) 
 //             break;
 //
-//         else if(pivot_idx > k - 1)
+//         else if(pivot_idx > k - 1) 
 //             R = pivot_idx - 1;
 //
 //         else 

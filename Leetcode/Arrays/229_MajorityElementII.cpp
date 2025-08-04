@@ -64,7 +64,7 @@
 //
 //     if(freq1 > floor(n/3))
 //         res.push_back(maj1);
-//     if(maj2 != maj1 && freq2 > floor(n/3))   // Cond. for edge Case like {0 , 0  0}
+//     if(maj2 != maj1 && freq2 > floor(n/3))   // Cond. for edge Case like {0 , 0 , 0}
 //         res.push_back(maj2);
 //
 //     return res;
