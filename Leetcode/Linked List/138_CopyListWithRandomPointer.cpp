@@ -2,14 +2,14 @@
 
 // Node* copyRandomList(Node* head) {
 //     unordered_map<Node* , Node*> mp;
-    
+//    
 //     Node* temp = head;
 //     while(temp){
 //         Node* newNode = new Node(temp->val);
 //         mp[temp] = newNode;
 //         temp = temp->next;
 //     }
-
+//
 //     temp = head;
 //     while(temp){
 //         Node* copyNode = mp[temp];
@@ -17,7 +17,7 @@
 //         copyNode->random = mp[temp->random];
 //         temp = temp->next;
 //     }
-
+//
 //     return mp[head];
 // }
 
@@ -33,7 +33,7 @@
 //         temp->next = copyNode;
 //         temp = temp->next->next;
 //     }
-
+//
 //     temp = head;
 //     while(temp){
 //         copyNode = temp->next;
@@ -41,7 +41,7 @@
 //         else    copyNode->random = NULL;
 //         temp = temp->next->next;
 //     }
-
+//
 //     Node* dummyNode = new Node(-1);
 //     Node* res = dummyNode;
 //     temp = head;
@@ -51,6 +51,6 @@
 //         res = res->next;
 //         temp = temp->next;
 //     }
-
+//
 //     return dummyNode->next;
 // }
