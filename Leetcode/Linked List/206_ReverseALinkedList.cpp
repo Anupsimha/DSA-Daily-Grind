@@ -1,15 +1,15 @@
 // ListNode* reverseList(ListNode* head) {
-        
+//        
 //     ListNode* curr = head;
 //     ListNode* temp = NULL;
-
+//
 //     while(curr != NULL){
 //         ListNode* c = curr->next;
 //         curr->next = temp;
 //         temp = curr;
 //         curr = c;
 //     }
-
+//
 //     return temp;
 // }
 
