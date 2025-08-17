@@ -47,36 +47,37 @@
 
 
 
+
 // Approach : Using map and Double Linked List
 // Time Complexity : O(1) for both get and put operations
-
+//
 // class LRUCache {
 // public:
 //     list<int> dll;  // Key
-//     map<int , pair<list<int>::iterator , int>> mp;
+//     map<int , pair<list<int>::iterator , int>> mp;   // map <key , <address , value>> ->data type of dll address is list<int>::iterator
 //     int n;
-
+//
 //     LRUCache(int capacity) {
 //         n = capacity;
 //     }
-
+//
 //     void makeRecentlyUsed(int key){
 //         dll.erase(mp[key].first);
-
+//
 //         dll.push_front(key);
-
+//
 //         mp[key].first = dll.begin();
 //     }
-    
+//    
 //     int get(int key) {
 //         if(mp.find(key) == mp.end())
 //             return -1;
-
+//
 //         makeRecentlyUsed(key);
-
+//
 //         return mp[key].second;
 //     }
-    
+//    
 //     void put(int key, int value) {
 //         if(mp.find(key) != mp.end()){
 //             mp[key].second = value;
@@ -87,11 +88,11 @@
 //             mp[key] = {dll.begin() , value};
 //             n--;
 //         }
-
+//
 //         if(n < 0){
 //             int key_to_delete = dll.back();
 //             mp.erase(key_to_delete);
-
+//
 //             dll.pop_back();
 //             n++;
 //         }
