@@ -2,10 +2,10 @@
 
 // int factorial(int n){
 //     if(n == 1 || n == 0)  return 1;
-
+//
 //     return n * factorial(n - 1);
 // }
-
+//
 // void nextPerm(vector<int>& nums , int n){
 //     int pointing_idx = -1;
 //     for(int j = n - 1 ; j > 0 ; j--){
@@ -14,7 +14,7 @@
 //             break;
 //         }
 //     }
-
+//
 //     if(pointing_idx != -1){
 //         int swapping_idx = pointing_idx;
 //         for(int j = n - 1 ; j > pointing_idx ; j--){
@@ -25,22 +25,22 @@
 //         }
 //         swap(nums[swapping_idx] , nums[pointing_idx]);
 //     }
-
+//
 //     reverse(nums.begin() + pointing_idx + 1 , nums.end());
 // }
-
+//
 // vector<vector<int>> permute(vector<int>& nums) {
 //     int n = nums.size();
 //     sort(nums.begin() , nums.end());
-    
+//
 //     vector<vector<int>> ans;
 //     int totalPermu = factorial(n);
-
+//
 //     for(int i = 0 ; i < totalPermu ; i++){
 //         ans.push_back(nums);
 //         nextPerm(nums , n);
 //     }
-
+//
 //     return ans;
 // }
 
