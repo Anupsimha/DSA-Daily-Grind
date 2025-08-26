@@ -10,13 +10,13 @@
 
 
 // Approach II : boyer-Moore Voting Algorithm
-
+//
 // int majorityElement(vector<int>& nums) {
 //     int n = nums.size();
-
+//
 //     int majority = nums[0];
 //     int count = 1;
-
+//
 //     for(int i = 1 ; i < n ; i ++){
 //         if(nums[i] == majority){
 //             count++;
@@ -28,7 +28,7 @@
 //             count--;
 //         }
 //     }
-
+//
 //     return majority;
 // }
 
