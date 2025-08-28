@@ -12,7 +12,7 @@
 //     for(int i = 0 ; i < num.size() ; i++){
 //         int ans = solveRec(num , x - num[i]);
 //         if(ans != INT_MAX)
-//             mini = min(mini , i + ans);
+//             mini = min(mini , 1 + ans);
 //     }
 
 //     return mini;
@@ -74,14 +74,14 @@
 // Space Complexity : O(X)
 
 // int solveTab(vector<int> &num , int x){
-//     vector<int> dp(x + 1 , INT_MAX);
+//     vector<int> dp(x + 1 , INT_MAX);     // Stores the amount of coins needed
 //     dp[0] = 0;
 
 //     for(int i = 1 ; i <= x ; i++){
 //         // trying to solve for every amt figure from 1 to x
 //         for(int j = 0 ; j < num.size() ; j++){
 //             if(i - num[j] >= 0 && dp[i - num[j]] != INT_MAX)
-//             dp[i] = min(dp[i]  , 1 + dp[i - num[j]]);
+//                  dp[i] = min(dp[i]  , 1 + dp[i - num[j]]);
 //         }
 //     }
 
