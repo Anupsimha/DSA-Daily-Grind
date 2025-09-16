@@ -14,7 +14,7 @@
 //             int count = 0;
 //             while(n > (d << (count + 1)))
 //                 count++;
-//             n -= d <<count;
+//             n -= d << count;
 //             ans += 1 << count;
 //         }
 
