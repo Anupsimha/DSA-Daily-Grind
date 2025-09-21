@@ -1,4 +1,4 @@
-//Dutch National Flag Algorithm
+// Dutch National Flag Algorithm
 
 // void sortColors(vector<int>& nums) {
 //     int n = nums.size();
