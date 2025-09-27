@@ -1,4 +1,4 @@
-// Approach : Most optimized using KMP Algorithm
+// KMP Algorithm
 
 // void computeLPS(string pattern , vector<int>& lps){
 //     int m = pattern.length();
