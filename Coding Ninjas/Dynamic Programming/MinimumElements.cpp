@@ -26,6 +26,34 @@
 //     return ans;
 // }
 
+///////////////////////////  or  ////////////////////////////
+
+// void solve(vector<int> &num, int x , int idx , int sum , int count , int &minCount){
+//     if(sum == x){
+//         minCount = min(minCount , count);
+//         return ;
+//     }
+
+//     if(idx >= num.size() || sum > x)
+//         return ;
+
+//     solve(num , x , idx , sum + num[idx] , count + 1 , minCount);
+
+//     solve(num , x , idx + 1 , sum , count , minCount);
+// }
+
+// int minimumElements(vector<int> &num, int x)
+// {
+//     int minCount = INT_MAX;
+//     int count = 0;
+
+//     solve(num , x , 0 , 0 , count , minCount);
+    
+//     return (minCount == INT_MAX ? -1 : minCount);
+// }
+
+
+
 
 
 // Approach 2 : Using Top Down
