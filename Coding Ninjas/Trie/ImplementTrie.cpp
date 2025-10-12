@@ -17,7 +17,6 @@
 
 // public:
 //     TrieNode* root;
-//     /** Initialize your data structure here. */
 //     Trie() {
 //         root = new TrieNode('\0');
 //     }
