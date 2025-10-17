@@ -1,0 +1,28 @@
+// void solve(TreeNode* root , string& res){
+//     if(!root)
+//         return ;
+
+//     res += to_string(root->val);
+
+//     if(root->left){
+//         res += '(';
+//         solve(root->left , res);
+//         res += ')';
+//     }
+//     else if(!root->left && root->right){
+//         res += "()";
+//     }
+//     if(root->right){
+//         res += '(';
+//         solve(root->right , res);
+//         res += ')';
+//     }
+// }
+
+// string tree2str(TreeNode* root) {
+//     string res = "";
+
+//     solve(root , res);
+
+//     return res;
+// }
