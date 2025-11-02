@@ -1,7 +1,7 @@
 // vector<int> inorderTraversal(TreeNode* root) {
 //     vector<int> inorder;
 //     TreeNode* curr = root;
-
+//
 //     while (curr != NULL) {
 //         if (curr->left == NULL) {
 //             // If no left child, visit this node
@@ -13,7 +13,7 @@
 //             while (predecessor->right != NULL && predecessor->right != curr) {
 //                 predecessor = predecessor->right;
 //             }
-
+//
 //             // If right link of predecessor is NULL, make it point to curr
 //             if (predecessor->right == NULL) {
 //                 predecessor->right = curr;
