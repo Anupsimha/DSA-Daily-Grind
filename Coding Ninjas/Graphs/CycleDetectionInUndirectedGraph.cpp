@@ -19,7 +19,7 @@
 //         q.pop();
 //
 //         for(auto neighbour : adj[front]){
-//             if(visited[neighbour] && neighbour != parent[front])
+//             if(visited[neighbour] && neighbour != parent[front])         // The visited neighbour should be parent of current node, otherwise there is a cycle
 //                 return true;
 //             else if(!visited[neighbour]){
 //                 q.push(neighbour);
@@ -45,7 +45,7 @@
 //
 //     // To handle disconnected components
 //     unordered_map<int , bool> visited;
-//     for(int i = 0 ; i < n ; i++){
+//     for(int i = 0 ; i < n ; i++){ 
 //         if(!visited[i]){
 //             bool ans = isCycleBFS(i , visited , adj);
 //             if(ans)
