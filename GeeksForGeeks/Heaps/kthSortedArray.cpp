@@ -12,7 +12,7 @@
 //     while(!pq.empty()){
 //         pair<int,int> s= pq.top();
 //         pq.pop();
-//         if(abs(s.second-count)>k){
+//         if(abs(s.second - count) > k){
 //             f=false;
 //             break;
 //         }
