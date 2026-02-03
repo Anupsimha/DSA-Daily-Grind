@@ -1,5 +1,5 @@
 //Approach I
-
+//
 // int missingNumber(vector<int>& nums) {
 //     int n = nums.size();
 //     for(int i = 0; i < nums.size(); i++){
@@ -20,7 +20,7 @@
 
 
 //Approach III
-
+//
 // int missingNumber(vector<int>& nums) {
 //     int n = nums.size(), xorAll = 0;
 //     for (int i = 0; i <= n; i++) xorAll ^= i;

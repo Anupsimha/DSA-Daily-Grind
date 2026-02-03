@@ -16,7 +16,7 @@
 //     }
 // }
 
-// vector<int> buildMinHeap(vector<int> &arr)
+// vect2or<int> buildMinHeap(vector<int> &arr)
 // {
 //     // Write your code here
 //     int n = arr.size();

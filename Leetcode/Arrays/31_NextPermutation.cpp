@@ -17,10 +17,10 @@
 //                 break;
 //             }
 //         }
-
+//
 //         swap(nums[pointingIndex] , nums[swapIndex]);
 //     }
-
+//
 //     reverse(nums.begin() + pointingIndex + 1 , nums.end());
 // }
 

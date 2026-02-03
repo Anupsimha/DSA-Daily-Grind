@@ -1,12 +1,12 @@
 // Approach : Using o(n) Time complexity and o(1) Space Complexity -> Bit Manipulation
-
+//
 // int getDecimalValue(ListNode* head) {
 //     int num = 0;
 //     while(head){
 //         num = (num << 1) | head->val;
 //         head = head->next;
 //     }
-
+//
 //     return num;
 // }
 

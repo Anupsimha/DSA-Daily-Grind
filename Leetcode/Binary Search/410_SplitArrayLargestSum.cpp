@@ -10,18 +10,18 @@
 //             sumCount = nums[i];
 //         }
 //     }
-
+//
 //     return students;
 // }
-
+//
 // int findLargestSum(vector<int>& nums, int n , int k){
 //     if(k > n)   return -1;
-
+//
 //     int s = *max_element(begin(nums) , end(nums));
 //     int e = accumulate(begin(nums) , end(nums) , 0);
 //     while(s <= e){
 //         int mid = (s + e)/2;
-
+//
 //         int students = countStudents(nums , n , mid);
 //         if(students > k){
 //             s = mid + 1;
@@ -32,9 +32,9 @@
 //     }
 //     return s;
 // }
-
+//
 // int splitArray(vector<int>& nums, int k) {
 //     int n = nums.size();
-
+//
 //     return findLargestSum(nums , n , k);
 // }

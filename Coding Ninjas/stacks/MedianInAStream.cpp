@@ -1,26 +1,26 @@
 //My Approach
 
 // #include<algorithm>
-//
+
 // vector<int> findMedian(vector<int> &arr, int n){
 // 	vector<int> ans;
 // 	vector<int> temp;
-//
+
 // 	for(int i = 0 ; i < n ; i++){
 // 		temp.push_back(arr[i]);  // Insert current element
 //         sort(temp.begin(), temp.end());  // Sort to maintain order
-//
+
 //         int size = temp.size();
 //         int median;
-//      
+     
 //         if (size % 2 != 0)  
 //             median = temp[size / 2];  
 //         else  
 //             median = (temp[size / 2] + temp[size / 2 - 1]) / 2;  
-//
+
 //         ans.push_back(median);
 // 	}	
-//
+
 // 	return ans;
 // }
 

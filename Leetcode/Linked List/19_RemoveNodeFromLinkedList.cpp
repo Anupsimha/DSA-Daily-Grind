@@ -47,8 +47,7 @@
 //Approach 2: Using two pointers
 // Time Complexity: O(L) where L is the length of the linked list
 // Space Complexity: O(1)
-
-
+//
 // ListNode* removeNthFromEnd(ListNode* head, int n) {
 //     ListNode* fast = head;
 //     ListNode* slow = head;

@@ -7,16 +7,16 @@
 //         prev = curr;
 //         curr = temp;
 //     }
-
+//
 //     return prev;
 // }
-
+//
 // vector<int> nextLargerNodes(ListNode* head) {
 //     vector<int> res;
 //     stack<int> s;
-
+//
 //     ListNode* temp = reverseLL(head);
-
+//
 //     while(temp){
 //         if(s.empty()){
 //             s.push(temp->val);
@@ -32,7 +32,7 @@
 //             s.pop();
 //         }
 //     }
-
+//
 //     reverse(res.begin() , res.end());
 //     return res;
 // }

@@ -22,7 +22,7 @@
 
 
 // Approach 2 : Boyer-Moore Voting Algorithm
-
+//
 // vector<int> majorityElement(vector<int>& nums) {
 //     int n = nums.size();
 //

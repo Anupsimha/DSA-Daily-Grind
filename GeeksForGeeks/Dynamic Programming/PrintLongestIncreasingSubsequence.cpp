@@ -1,31 +1,31 @@
 // Approach : Recursion
-
+//
 // int n;
-
+//
 // void solve(vector<int>& arr , vector<int>& res , vector<int> temp , int idx){
 //     if(idx >= n){ 
 //         if(temp.size() > res.size())
 //             res = temp;
 //         return ;
 //     }
-    
+//    
 //     if(temp.size() == 0 || arr[idx] > temp.back()){
 //         temp.push_back(arr[idx]);
 //         solve(arr , res , temp , idx + 1);
 //         temp.pop_back();
 //     }
-    
+//    
 //     solve(arr , res , temp , idx + 1);
 // }
 
 // vector<int> getLIS(vector<int>& arr) {
 //     n = arr.size();
-    
+//    
 //     vector<int> res;
 //     vector<int> temp;
-    
+//    
 //     solve(arr , res ,  temp , 0);
-    
+//    
 //     return res;
 // }
 

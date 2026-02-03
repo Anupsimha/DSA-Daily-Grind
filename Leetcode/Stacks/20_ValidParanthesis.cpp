@@ -16,6 +16,3 @@
 //
 //     return ch.empty();
 // }
-
-// Approach 2 : using counter
-

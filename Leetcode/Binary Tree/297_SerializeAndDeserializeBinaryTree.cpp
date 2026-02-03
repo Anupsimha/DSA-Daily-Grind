@@ -1,6 +1,6 @@
 // string serialize(TreeNode* root) {
 //     if(!root) return "";
-
+//
 //     string s = "";
 //     queue<TreeNode*> q;
 //     q.push(root);
@@ -16,11 +16,11 @@
 //     }
 //     return s;
 // }
-
+//
 // // Decodes your encoded data to tree.
 // TreeNode* deserialize(string data) {
 //     if(data.size() == 0)    return NULL;
-
+//
 //     stringstream s(data);
 //     string str;
 //     getline(s , str , ',');
@@ -30,7 +30,7 @@
 //     while(!q.empty()){
 //         TreeNode* node = q.front();
 //         q.pop();
-
+//
 //         getline(s , str , ',');
 //         if(str == "#"){
 //             node->left = NULL;
@@ -40,7 +40,7 @@
 //             node->left = leftNode;
 //             q.push(leftNode);
 //         }
-
+//
 //         getline(s , str , ',');
 //         if(str == "#"){
 //             node->right = NULL;
@@ -51,6 +51,6 @@
 //             q.push(rightNode);
 //         }
 //     }
-
+//
 //     return root;
 // }

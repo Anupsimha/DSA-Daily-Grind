@@ -1,5 +1,5 @@
 // Floor : Greatest element smaller than or equal to x
-
+//
 // int floorNum(vector<int> &arr, int n, int x){
 // 	int s = 0 , e = n - 1;
 // 	int ans = -1;

@@ -1,9 +1,9 @@
 // Approach : Using stack
-
+//
 // class BSTIterator {
 // private: 
 //     stack<TreeNode*> st;
-
+//
 //     void pushNode(TreeNode* root){
 //         TreeNode* node = root;
 //         while(node){
@@ -11,19 +11,19 @@
 //             node = node->left;
 //         }
 //     }
-
+//
 // public:
 //     BSTIterator(TreeNode* root) {
 //         pushNode(root);
 //     }
-    
+//    
 //     int next() {
 //         TreeNode* temp = st.top();
 //         st.pop();
 //         pushNode(temp->right);
 //         return temp->val;
 //     }
-    
+//    
 //     bool hasNext() {
 //         return !st.empty();
 //     }

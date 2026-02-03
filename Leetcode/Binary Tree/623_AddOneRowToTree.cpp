@@ -4,7 +4,7 @@
 //         curr->left = root;
 //         return curr;
 //     }
-
+//
 //     queue<TreeNode*> q;
 //     q.push(root);
 //     for(int d = 2 ; d < depth ; d++){
@@ -17,7 +17,7 @@
 //                 q.push(node->right);
 //         }
 //     }
-
+//
 //     while(!q.empty()){
 //         TreeNode* node = q.front();
 //         q.pop();
@@ -28,6 +28,6 @@
 //         node->left = l;
 //         node->right = r;
 //     }
-
+//
 //     return root;
 // }

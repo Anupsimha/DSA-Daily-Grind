@@ -2,36 +2,36 @@
 
 // bool isEvenOddTree(TreeNode* root) {
 //     if (!root) return false;
-
+//
 //     queue<TreeNode*> q;
 //     q.push(root);
-
+//
 //     bool evenLevel = true;
-
+//
 //     while(q.size()){
 //         int n = q.size();
 //         int prev = evenLevel ? INT_MIN : INT_MAX;
-
+//
 //         for (int i = 0; i < n; i++) {
 //             TreeNode* node = q.front();
 //             q.pop();
-
+//
 //             int val = node->val;
-
+//
 //             if (evenLevel) {
 //                 if (val % 2 == 0 || val <= prev) return false;
 //             } else {
 //                 if (val % 2 == 1 || val >= prev) return false;
 //             }
 //             prev = val;
-
+//
 //             if (node->left) q.push(node->left);
 //             if (node->right) q.push(node->right);
 //         }
-
+//
 //         evenLevel = !evenLevel;
 //     }
-    
+//    
 //     return true;
 // }
 

@@ -1,5 +1,5 @@
 // Approach : Simple Recursion
-
+//
 // int solve(vector<int>& weight , vector<int> &value , int idx , int capacity){
 // 	//Base Case - If only 1 item to steal, then just compare its weight with the knapsack capacity
 // 	if(idx == 0){
@@ -30,7 +30,7 @@
 
 
 // Appraoch : Recursion + Memoization
-
+//
 // int solveMem(vector<int>& weight , vector<int> &value , int idx , int capacity , vector<vector<int>>& dp){
 // 	//Base Case - If only 1 item to steal, then just compare its weight with the knapsack capacity
 // 	if(idx == 0){

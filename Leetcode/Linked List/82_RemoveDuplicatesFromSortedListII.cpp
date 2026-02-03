@@ -3,18 +3,18 @@
 // ListNode* deleteDuplicates(ListNode* head) {
 //     if(!head || !head->next)
 //         return head;
-
+//
 //     ListNode* curr = head;
 //     ListNode* prev = NULL;
-
+//
 //     while(curr){
 //         if(curr->next && curr->val == curr->next->val){
 //             int val = curr->val;
-
+//
 //             while(curr && curr->val == val){
 //                 curr = curr->next;
 //             }
-
+//
 //             if(prev)
 //                 prev->next = curr;
 //             else
@@ -25,7 +25,7 @@
 //             curr = curr->next;
 //         }
 //     }
-
+//
 //     return head;
 // }
 

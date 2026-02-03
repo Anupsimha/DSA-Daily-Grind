@@ -12,34 +12,34 @@
 //         int u = vec[i][0];
 //         int v = vec[i][1];
 //         int w = vec[i][2];
-
+//
 //         adj[u].push_back(make_pair(v , w));
 //         adj[v].push_back(make_pair(u , w));
 //     }
-
+//
 //     // creation of distance array with infinite values initially
 //     vector<int> dist(vertices);
 //     for(int i = 0 ; i < vertices ; i++){
 //         dist[i] = INT_MAX;
 //     }
-
+//
 //     //creation of set on basis (distance , node)
 //     set<pair<int , int>> st;
-
+//
 //     // Initialize and distance and node with source node
 //     dist[source] = 0;
 //     st.insert(make_pair(0 , source));
-
+//
 //     while(!st.empty()){
 //        // Fetch top record
 //         auto top = *(st.begin());
-
+//
 //         int nodeDist = top.first;
 //         int topNode = top.second;
-
+//
 //         // remove top record
 //         st.erase(st.begin());
-
+//
 //         //traverse on neighbours
 //         for(auto neighbour : adj[topNode]){
 //             if(nodeDist + neighbour.second < dist[neighbour.first]){
@@ -48,7 +48,7 @@
 //                 if(record != st.end()){
 //                     st.erase(record);
 //                 }
-
+//
 //                 //distance update
 //                 dist[neighbour.first] = nodeDist + neighbour.second;
 //                 //record push in set
@@ -56,6 +56,6 @@
 //             }
 //         }
 //     }
-
+//
 //     return dist;
 // }

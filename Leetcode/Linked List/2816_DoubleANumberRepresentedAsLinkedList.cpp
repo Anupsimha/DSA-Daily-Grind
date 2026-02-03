@@ -1,5 +1,5 @@
 // Approach 1: Reverse the linked list, double each digit, and reverse it back.
-
+//
 // ListNode* reverseList(ListNode* head){
 //     ListNode* prev = NULL;
 //     while(head){
@@ -36,7 +36,7 @@
 
 
 // Approach 2 : Using Recursion
-
+//
 // int doubleUtil(ListNode* head){
 //     if(!head)
 //         return 0;

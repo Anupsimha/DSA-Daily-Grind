@@ -3,22 +3,22 @@
 // Space Complexity : O(1)
 
 // int n;
-
+//
 // int solve(vector<int>& nums, int target , int sum , int idx){
 //     if(idx >= n){
 //         return target == sum;
 //     }
-
+//
 //     int pos = solve(nums , target , sum - nums[idx] , idx + 1);
-
+//
 //     int neg = solve(nums , target , sum + nums[idx] , idx + 1);
-
+//
 //     return pos + neg;
 // }
-
+//
 // int findTargetSumWays(vector<int>& nums, int target) {
 //     n = nums.size();
-
+//
 //     return solve(nums , target , 0 , 0);
 // }
 
@@ -29,27 +29,27 @@
 // Approach : Memoization
 // Time:  O(n * sumRange)
 // Space: O(n * sumRange)
-
+//
 // int n;
 // unordered_map<string, int> memo;
-
+//
 // int solve(vector<int>& nums, int target , int sum , int idx){
 //     if (idx == n)
 //         return sum == target;
-
+//
 //     string key = to_string(idx) + "," + to_string(sum);
 //     if (memo.count(key))
 //         return memo[key];
-
+//
 //     int pos = solve(nums, target, sum + nums[idx], idx + 1);
 //     int neg = solve(nums, target, sum - nums[idx], idx + 1);
-
+//
 //     return memo[key] = pos + neg;
 // }
-
+//
 // int findTargetSumWays(vector<int>& nums, int target) {
 //     n = nums.size();
-
+//
 //     memo.clear();
 //     return solve(nums , target , 0 , 0);
 // }

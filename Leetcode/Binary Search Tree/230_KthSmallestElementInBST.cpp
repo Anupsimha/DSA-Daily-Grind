@@ -23,7 +23,7 @@
 //
 //     return kSmallest;
 // }
-
+//
 
 
 
@@ -32,13 +32,13 @@
 
 // void findKth(TreeNode* root, int k , map<int , TreeNode*> &m , int &small){
 //     if(!root)   return ;
-    
+//    
 //     if(!root->left){
 //         m[++small] = root;
 //     }
-
+//
 //     findKth(root->left , k , m , small);
-
+//
 //     bool isPresent = false;
 //     for (const auto& pair : m) {
 //         if (pair.second == root) {
@@ -46,18 +46,18 @@
 //             break;
 //         }
 //     }
-
+//
 //     if(!isPresent)
 //         m[++small] = root;
-
+//
 //     findKth(root->right , k , m , small);
 // }
-
+//
 // int kthSmallest(TreeNode* root, int k) {
 //     map<int , TreeNode*> m;
-
+//
 //     int smallest = 0;
 //     findKth(root , k , m , smallest);
-
+//
 //     return m[k]->val;
 // }

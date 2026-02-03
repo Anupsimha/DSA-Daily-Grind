@@ -10,7 +10,7 @@
 //     }
 //     return low;
 // }
-
+//
 // int binarySearch(vector<int>& nums , int st , int e , int target){
 //     while(st <= e){
 //         int mid = st + (e - st)/2;
@@ -21,7 +21,7 @@
 //     }
 //     return -1;
 // }
-
+//
 // int search(vector<int>& nums, int target) {
 //     int n = nums.size();
 //

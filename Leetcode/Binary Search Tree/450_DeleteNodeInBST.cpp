@@ -1,14 +1,14 @@
 // TreeNode* minVal(TreeNode* root){
 //     if(!root->left)
 //         return root;
-
+//
 //     return minVal(root->left);
 // }
-
+//
 // TreeNode* deleteNode(TreeNode* root, int key) {
 //     if(!root)
 //         return root;
-
+//
 //     if(root->val == key){
 //         if(!root->left && !root->right){
 //             delete root;
@@ -39,6 +39,6 @@
 //         root->right = deleteNode(root->right , key);
 //         return root;
 //     }
-
+//
 //     return root;
 // }
