@@ -1,5 +1,5 @@
 // Approach : Using Stacks
-
+//
 // vector<string> binaryTreePaths(TreeNode* root) {
 //     vector<string> res;
 //
@@ -33,11 +33,11 @@
 // void solve(TreeNode* root , vector<string>& res , string &output){
 //     if (!root)
 //         return ;
-
+//
 //     int len = output.size();
-
+//
 //     output += to_string(root->val);
-
+//
 //     if (!root->left && !root->right) {
 //         res.push_back(output);
 //     } else {
@@ -45,15 +45,15 @@
 //         solve(root->left, res, output);
 //         solve(root->right, res, output);
 //     }
-
+//
 //     output.erase(len);
 // }
 
 // vector<string> binaryTreePaths(TreeNode* root) {
 //     vector<string> res;
-
+//
 //     string output = "";
 //     solve(root , res , output);
-
+//
 //     return res;
 // }

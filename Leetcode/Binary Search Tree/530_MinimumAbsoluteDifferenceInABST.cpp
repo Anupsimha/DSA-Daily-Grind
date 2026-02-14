@@ -10,7 +10,7 @@
 //
 //     solveDFS(root->right , prev , ans);
 // }
-//
+
 // int getMinimumDifference(TreeNode* root) {
 //     TreeNode* prev = NULL;
 //     int ans = INT_MAX;

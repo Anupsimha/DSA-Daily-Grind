@@ -1,5 +1,5 @@
 // TreeNode* nextRight = NULL;
-
+//
 // void flatten(TreeNode* root) {
 //     if(!root)
 //         return ;

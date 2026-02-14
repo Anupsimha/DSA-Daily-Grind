@@ -2,7 +2,7 @@
 // Find the inorder Traversal of the given Tree and then sort it out, then it will be the inorder Traversal of the BST.
 // and finally traverse the tree again and replace the values with the sorted inorder Traversal values.
 // Time Complexity: O(nlogn + 2n) 
-
+//
 // void getInorderTraversal(TreeNode* root , vector<int> &inOrder){
 //     if(!root)
 //         return ;
@@ -36,7 +36,7 @@
 
 
 // Appraoch : Using Inorder Traversal but without using extra space and Sorting
-//
+
 // class Solution {
 // private:
 //     TreeNode* first;

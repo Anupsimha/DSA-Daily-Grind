@@ -7,7 +7,7 @@
 //     if(!root->left && !root->right)
 //         s += root->val + '_';
 // }
-//
+
 // bool leafSimilar(TreeNode* root1, TreeNode* root2) {
 //     string s1 = "" , s2 = "";
 //

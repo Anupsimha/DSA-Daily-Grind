@@ -10,7 +10,7 @@
 //
 //     return isSameTree(root->left , subRoot->left) && isSameTree(root->right , subRoot->right);
 // }
-//
+
 // bool isSubtree(TreeNode* root, TreeNode* subRoot) {
 //     if(!root)
 //         return false;
