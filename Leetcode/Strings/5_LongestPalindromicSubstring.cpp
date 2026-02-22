@@ -33,3 +33,44 @@
 
 //     return s.substr(sp , maxLen);
 // }
+
+
+
+
+
+// Approach : Using two-pointer's approach of expanding from center
+
+// string longestPalindrome(string s) {
+//     int n = s.length();
+
+//     int longestLen = 1;
+//     string ans = "";
+
+//     ans += s[0];
+
+//     for(int i = 0 ; i < n ; i++){
+//         int cnt = 1;
+//         int leftSide = i - 1 , rightSide = i + 1;
+
+//         while(rightSide < n && s[i] == s[rightSide]){
+//             cnt++;
+
+//             rightSide++;
+//             i = rightSide - 1;
+//         }
+
+//         while(leftSide >= 0 && rightSide < n && s[leftSide] == s[rightSide]){
+//             cnt += 2;
+
+//             leftSide--;
+//             rightSide++;
+//         }
+
+//         if(cnt > longestLen){
+//             longestLen = cnt;
+//             ans = s.substr(leftSide + 1 , cnt);
+//         }
+//     }
+
+//     return ans;
+// }
