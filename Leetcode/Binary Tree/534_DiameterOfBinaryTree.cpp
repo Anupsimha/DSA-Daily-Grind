@@ -7,7 +7,7 @@
 //     maxLen = max(maxLen, l + r);
 //     return 1 + max(l, r);
 // }
-
+//
 // int diameterOfBinaryTree(TreeNode* root) {
 //     maxLen = 0;
 //     diameter(root);

@@ -16,13 +16,13 @@
 
 
 // Approach : Using 1 stack
-
+//
 // vector<int> postorderTraversal(TreeNode* root) {
 //     vector<int> postorder;
 //     stack<TreeNode*> st;
 //     TreeNode* curr = root;   
-//     TreeNode* lastVisited = NULL;   
-
+//     TreeNode* lastVisited = NULL;        
+//
 //     while(curr || !st.empty()){
 //         if(curr){
 //             st.push(curr);
@@ -40,7 +40,7 @@
 //             }
 //         }
 //     }
-
+//
 //     return postorder;
 // }
 

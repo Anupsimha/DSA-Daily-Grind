@@ -2,7 +2,7 @@
 //     // Code here
 //     Node* curr = root;
 //     int res = -1;
-    
+//   
 //     while(curr){
 //         if(curr->data < x){
 //             res = curr->data;
@@ -15,6 +15,6 @@
 //             return curr->data;
 //         }
 //     }
-    
+//    
 //     return res;
 // }

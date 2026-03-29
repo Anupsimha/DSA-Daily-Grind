@@ -1,5 +1,5 @@
 // Approach : Using Stacks
-//
+
 // vector<string> binaryTreePaths(TreeNode* root) {
 //     vector<string> res;
 //
@@ -29,7 +29,7 @@
 
 
 // Approach : Using Strings
-
+//
 // void solve(TreeNode* root , vector<string>& res , string &output){
 //     if (!root)
 //         return ;

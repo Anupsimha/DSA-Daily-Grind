@@ -8,4 +8,3 @@
 //
 //     return p->val == q->val && leftSub && rightSub;
 // }
-//
