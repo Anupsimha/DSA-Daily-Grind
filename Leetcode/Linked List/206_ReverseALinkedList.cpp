@@ -1,5 +1,4 @@
 // ListNode* reverseList(ListNode* head) {
-//        
 //     ListNode* curr = head;
 //     ListNode* temp = NULL;
 //

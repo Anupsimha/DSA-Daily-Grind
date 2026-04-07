@@ -1,9 +1,9 @@
 // ListNode* removeElements(ListNode* head, int val) {
 //     if(!head)   return head;
-    
+//    
 //     ListNode* dummy = new ListNode(-1);
 //     dummy->next = head;
-
+//
 //     ListNode* prev = dummy;
 //     while(prev->next){
 //         if(prev->next->val == val){
@@ -15,6 +15,6 @@
 //             prev = prev->next;
 //         }
 //     }
-
+//
 //     return dummy->next;
 // }

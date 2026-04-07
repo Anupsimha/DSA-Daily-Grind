@@ -1,7 +1,7 @@
 // Approach : Recursion
 // Time Complexity : O(2^(m+n))
 // Space Complexity : O(m+n)
-//
+
 // int solve(int m , int n , int i , int j){
 //     if(i >= m || j >= n)
 //         return 0;
@@ -61,7 +61,7 @@
 //    
 //     for(int i = 1 ; i < m ; i++){
 //         for(int j = 1 ; j < n ; j++){
-//             dp[i][j] = dp[i][j - 1] + dp[i - 1][j]; b
+//             dp[i][j] = dp[i][j - 1] + dp[i - 1][j]; 
 //         }
 //     }
 //

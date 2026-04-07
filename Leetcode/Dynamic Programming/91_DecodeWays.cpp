@@ -12,7 +12,7 @@
 //     int curr_char_possibilities = solve(s , n , i + 1);
 //
 //     int next_char_possibilities = 0;
-//     if(i + 1 < n && (s[i] == '1' || (s[i] == '2' && s[i + 1] <= '6'))) // check is next number makes less than 26
+//     if(i + 1 < n && (s[i] == '1' || (s[i] == '2' && s[i + 1] <= '6'))) // check if next number makes less than 26
 //         next_char_possibilities = solve(s , n , i + 2);
 //
 //     return curr_char_possibilities + next_char_possibilities;

@@ -27,22 +27,22 @@
 //     if(!root){
 //         return ;
 //     }
-
+//
 //     solve(root->left , minDiff , prev);
-
+//
 //     if(prev){
 //         minDiff = min(minDiff , root->val - prev->val);
 //     }
 //     prev = root;
-
+//
 //     solve(root->right , minDiff , prev);
 // }
-
+//
 // int minDiffInBST(TreeNode* root) {
 //     int minDiff = INT_MAX;
 //     TreeNode* prev = NULL;
-
+//
 //     solve(root , minDiff , prev);
-
+//
 //     return minDiff;
 // }

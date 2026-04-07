@@ -43,14 +43,14 @@
 
 // Node* segregate(Node* head) {
 //     if(!head || !head->next)    return head;
-    
+//    
 //     Node* zero = new Node(-1);
 //     Node* zeroHead = zero;
 //     Node* one = new Node(-1);
 //     Node* oneHead = one;
 //     Node* two = new Node(-1);
 //     Node* twoHead = two;
-    
+//    
 //     Node* temp = head;
 //     while(temp){
 //         if(temp->data == 0){
@@ -65,19 +65,19 @@
 //             two->next = temp;
 //             two = two->next;
 //         }    
-        
+//        
 //         temp = temp->next;
 //     }
-    
+//    
 //     zero->next = (oneHead->next) ? oneHead->next : twoHead->next;
 //     one->next = twoHead->next;
 //     two->next = NULL;
-    
+//    
 //     head = zeroHead->next;
-    
+//    
 //     delete zeroHead;
 //     delete oneHead;
 //     delete twoHead;
-    
+//    
 //     return head;
 // }
