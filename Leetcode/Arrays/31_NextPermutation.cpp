@@ -23,6 +23,7 @@
 //
 //     reverse(nums.begin() + pointingIndex + 1 , nums.end());
 // }
+//
 
 
 

@@ -3,9 +3,9 @@
 // vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
 //     int m = mat.size();
 //     int n = mat[0].size();
-
+//
 //     vector<int> res(k , 0);
-
+//
 //     vector<vector<int>> count;
 //     for(int i = 0 ; i < m ; i++){
 //         int soldiers = 0;
@@ -15,13 +15,13 @@
 //         }
 //         count.push_back({soldiers , i});
 //     }
-
+//
 //     sort(begin(count) , end(count));
-
+//
 //     for(int i = 0 ; i < k ; i++){
 //         res[i] = count[i][1];
 //     }
-
+//
 //     return res;
 // }
 
@@ -33,10 +33,10 @@
 
 // int binarySearch(vector<int> &nums , int s , int e){
 //     int ans = -1;
-
+//
 //     while(s <= e){
 //         int mid = s + (e - s)/2;
-
+//
 //         if(nums[mid] == 1){
 //             ans = mid;
 //             s = mid + 1;
@@ -45,28 +45,28 @@
 //             e = mid - 1;
 //         }
 //     }
-
+//
 //     return ans;
 // }
-
+//
 // vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
 //     int m = mat.size();
 //     int n = mat[0].size();
-
+//
 //     vector<int> res(k , 0);
-
+//
 //     vector<vector<int>> count;
 //     for(int i = 0 ; i < m ; i++){
 //         int soldiers = binarySearch(mat[i] , 0 , n - 1);
 //         count.push_back({soldiers + 1 , i});
 //     }
-
+//
 //     sort(begin(count) , end(count));
-
+//
 //     for(int i = 0 ; i < k ; i++){
 //         res[i] = count[i][1];
 //     }
-
+//
 //     return res;
 // }
 

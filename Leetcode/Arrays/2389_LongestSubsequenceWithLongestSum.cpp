@@ -1,5 +1,5 @@
 // My Approach - Brute Force
-
+//
 // vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
 //     int n = nums.size();
 //     int m = queries.size();
@@ -72,7 +72,7 @@
 
 
 // Same approach using upper_bound() STL ,
-
+//
 // vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
 //     int n = nums.size();
 //     int m = queries.size();

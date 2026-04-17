@@ -1,5 +1,5 @@
 //Appraoch 1 
-
+//
 // int trap(vector<int>& height) {
 //     vector<int> left_max(height.size()) , right_max(height.size());
 //
